@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Alcohol/static/css/main.9dd1afd8.chunk.css",
+    "main.js": "/Alcohol/static/js/main.5744d708.chunk.js",
+    "main.js.map": "/Alcohol/static/js/main.5744d708.chunk.js.map",
+    "runtime-main.js": "/Alcohol/static/js/runtime-main.c72311a9.js",
+    "runtime-main.js.map": "/Alcohol/static/js/runtime-main.c72311a9.js.map",
+    "static/js/2.89c08913.chunk.js": "/Alcohol/static/js/2.89c08913.chunk.js",
+    "static/js/2.89c08913.chunk.js.map": "/Alcohol/static/js/2.89c08913.chunk.js.map",
+    "static/js/3.a29b7863.chunk.js": "/Alcohol/static/js/3.a29b7863.chunk.js",
+    "static/js/3.a29b7863.chunk.js.map": "/Alcohol/static/js/3.a29b7863.chunk.js.map",
+    "index.html": "/Alcohol/index.html",
+    "static/css/main.9dd1afd8.chunk.css.map": "/Alcohol/static/css/main.9dd1afd8.chunk.css.map",
+    "static/js/2.89c08913.chunk.js.LICENSE.txt": "/Alcohol/static/js/2.89c08913.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c72311a9.js",
+    "static/js/2.89c08913.chunk.js",
+    "static/css/main.9dd1afd8.chunk.css",
+    "static/js/main.5744d708.chunk.js"
+  ]
+}
