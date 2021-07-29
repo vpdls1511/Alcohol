@@ -1,4 +1,4 @@
-import MainText from "../../components/MainText";
+import MainText from "../components/MainText";
 
 function Home(){
     return(

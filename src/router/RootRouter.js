@@ -1,6 +1,7 @@
-import Home from "../pages/main/Home";
-import Sub from "../pages/main/Sub";
+import Home from "../pages/Home";
+import Alcohol from "../pages/alcohol/Alcohol";
 import DefaultLayout from "../layout/Default";
+import Recipe from "../pages/Recipe";
 
 export const routers = [
     {
@@ -12,9 +13,16 @@ export const routers = [
     },
     {
         exact : false,
-        path : '/sub',
-        component : Sub,
+        path : '/beverage',
+        component : Alcohol,
         layout: DefaultLayout,
-        name : 'Sub'
+        name : 'Beverage'
+    },
+    {
+        exact : false,
+        path : '/recipe',
+        component : Recipe,
+        layout: DefaultLayout,
+        name : 'Recipe'
     }
 ]

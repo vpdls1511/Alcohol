@@ -9,7 +9,11 @@
  NIGHT : #0D0D0D
 
  */
-
+$TAN : #D9A282;
+$RUST : #8C594D;
+$CLOUD : #A6A6A6;
+$ASH : #404040;
+$NIGHT : #0D0D0D;
 /*
 fonts
 
@@ -22,11 +26,13 @@ font-family: 'Nanum Myeongjo', serif;
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 //components
-@import "components/TopMenu";
+@import "components/CustomAccordion";
 @import "components/MainText";
+@import "components/TopMenu";
 
 //pages
 @import "pages/Main";
+@import "pages/Alcohol";
 
 //ETC
 @import "Loading";
@@ -55,6 +61,15 @@ p, a{
   margin: 0;
   color: #0D0D0D;
 }
+ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
 .wrap{
   width: 100%;
+}
+
+.c-both{
+  clear:both;
 }

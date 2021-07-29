@@ -1,0 +1,124 @@
+.accordionMainBox {
+  position: relative;
+  width: calc(100vw - 100px);
+  max-width: 1200px;
+  margin: 40px auto 0;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, .1);
+  overflow-y: hidden;
+  transition: .5s;
+  padding: 20px;
+
+  div.title {
+    width: 100%;
+    display: inline-block;
+    p:nth-child(1) {
+      float: left;
+      color: $CLOUD;
+      font-size: 0.9em;
+      b{
+        font-size: 1.5em;
+        color: $NIGHT;
+      }
+    }
+
+    p:nth-child(2) {
+      float: right;
+      margin-top: 5px;
+      color: $RUST;
+      font-size: 10pt;
+    }
+  }
+
+  .accordionDesc{
+    position: relative;
+    transition: .5s;
+    margin-top: 10px;
+    > div:not(:last-child){
+      position: relative;
+      left: -10px;
+      width: calc(100%);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      div{
+        flex: 1;
+        min-width: 300px;
+        p{
+          text-align: center;
+          &:first-child{
+            font-weight: normal;
+            color: $TAN;
+          }
+          &:last-child{
+            position: relative;
+            font-weight: lighter;
+            padding : 0 5px 10px;
+            color: $NIGHT;
+          }
+        }
+      }
+    }
+
+    >div:nth-child(2){
+      margin-top: 20px;
+      p{
+        text-align: center;
+        font-size: 1.1em;
+      }
+    }
+
+  }
+
+}
+@media screen and (min-width: 801px){
+  .accordionMainBox{
+    height: 30px;
+    div.title {
+      width: 100%;
+      p:nth-child(1) {
+        display: inline-block;
+      }
+    }
+  }
+  .accordionDesc{
+    > div:not(:last-child){
+      div{
+        p{
+          &:first-child{
+            font-size: 2.5em;
+          }
+          &:last-child{
+            font-size: 1.5em;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px){
+  .accordionMainBox{
+    height: 50px;
+    div.title {
+      width: 100%;
+      p:nth-child(1) {
+        width: 100%;
+      }
+    }
+  }
+  .accordionDesc{
+    > div:not(:last-child){
+      div{
+        p{
+          &:first-child{
+            font-size: 2em;
+          }
+          &:last-child{
+            font-size: 1em;
+          }
+        }
+      }
+    }
+  }
+}
