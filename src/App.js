@@ -7,7 +7,7 @@ import {routers} from './router/RootRouter'
 function App() {
 
     return (
-        <Router>
+        <Router basename={'/Alcohol'}>
             <Route render={({location}) => (
                 <TransitionGroup>
                     <CSSTransition

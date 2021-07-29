@@ -80,6 +80,9 @@
   }
 }
 @media screen and (max-width: 800px){
+  .textLogo{
+    transform: scale(0.8);
+  }
   .menuBtn{
     right: 30px;
   }
@@ -96,7 +99,7 @@
     opacity: 0;
     a{
       display: block;
-      font-size: 3em;
+      font-size: 1.6em;
       text-decoration: none;
       width: 100%;
       border-bottom: 1px solid $CLOUD;

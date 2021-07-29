@@ -10,6 +10,7 @@ function TopMenu() {
 
     function handleResize() {
         if(window.innerWidth > 800){
+            menuRef.current.style.opacity = '1'
             setMenu(false)
         }
     }
@@ -33,7 +34,9 @@ function TopMenu() {
             btnRef.current.childNodes[1].style.transform = 'translateX(0px)'
             btnRef.current.childNodes[2].style.transform = 'rotate(0deg) translateY(0) translateX(0)'
         }
-        menuRef.current.style.opacity = '1'
+        if(window.innerWidth > 800){
+            menuRef.current.style.opacity = '1'
+        }
     },[isMenu])
 
     useEffect(() => {
