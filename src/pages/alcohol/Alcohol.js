@@ -7,7 +7,24 @@ function Alcohol(){
 
     const [isCate , setIsCate] = useState( 'whiskey' )
 
-    const handleChangeCate = (e) => setIsCate(e.target.className)
+    const [isState , setState] = useState({
+        whiskey : true,
+        liqueur : false,
+        rum : false
+    })
+
+    const handleChangeCate = (e) => {
+        setIsCate(e.target.className)
+        setState({
+            whiskey : false,
+            liqueur : false,
+            rum : false
+        })
+
+        if(e.target.className === 'whiskey') setState({...isState, whiskey:true})
+        else if(e.target.className === 'liqueur') setState({...isState, liqueur:true})
+        else if(e.target.className === 'rum') setState({...isState, rum:true})
+    }
 
     useEffect(()=>{
         const itemList = document.querySelector('div.listSlider');
@@ -38,9 +55,9 @@ function Alcohol(){
 
             <ul className={'alcoholList'}>
                 <div className={'listSlider'}>
-                    <li><Whiskey/></li>
-                    <li><Liqueur/></li>
-                    <li><Rum/></li>
+                    <li>{ isState.whiskey &&  <Whiskey/> }</li>
+                    <li>{ isState.liqueur &&  <Liqueur/> }</li>
+                    <li>{ isState.rum &&  <Rum/> }</li>
                 </div>
             </ul>
         </div>

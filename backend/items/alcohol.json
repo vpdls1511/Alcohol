@@ -1,16 +1,1 @@
-[
-  {
-    "cate": "Liqueur",
-    "title": "LimonCello",
-    "img": "img/LimonCello.png",
-    "alcohol": 26,
-    "info": "Italian lemon liqueur"
-  },
-  {
-    "cate": "Rum",
-    "title": "AppleTon",
-    "img": "img/AppleTon.png",
-    "alcohol": "40",
-    "info": "Jamaica gold rum"
-  }
-]
+[{"cate":"Liqueur","title":"LimonCello","img":"img/LimonCello.png","alcohol":26,"info":"Italian lemon liqueur"},{"cate":"Rum","title":"AppleTon","img":"img/AppleTon.png","alcohol":"40","info":"Jamaica gold rum"},{"cate":"Rum","title":"AppleTon","img":"img/AppleTon.png","alcohol":"40","info":"Jamaica gold rum"}]
