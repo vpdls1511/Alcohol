@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Alcohol/static/css/main.5d9a38e7.chunk.css",
-    "main.js": "/Alcohol/static/js/main.2c5cff3e.chunk.js",
-    "main.js.map": "/Alcohol/static/js/main.2c5cff3e.chunk.js.map",
+    "main.js": "/Alcohol/static/js/main.d8478a2c.chunk.js",
+    "main.js.map": "/Alcohol/static/js/main.d8478a2c.chunk.js.map",
     "runtime-main.js": "/Alcohol/static/js/runtime-main.c72311a9.js",
     "runtime-main.js.map": "/Alcohol/static/js/runtime-main.c72311a9.js.map",
     "static/js/2.f19b669a.chunk.js": "/Alcohol/static/js/2.f19b669a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c72311a9.js",
     "static/js/2.f19b669a.chunk.js",
     "static/css/main.5d9a38e7.chunk.css",
-    "static/js/main.2c5cff3e.chunk.js"
+    "static/js/main.d8478a2c.chunk.js"
   ]
 }
