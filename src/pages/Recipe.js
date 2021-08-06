@@ -33,7 +33,7 @@ function Recipe(){
             />
             <CustomAccordion
                 en={'Sweet Highball'}
-                kr={'스위트 피즈'}
+                kr={'스위트 하이볼'}
                 base={'Appleton GoldRum'}
                 alcohol={'10%'}
                 hash={'#럼#달콤#취하기#Rum#Alcohol#sweet'}
